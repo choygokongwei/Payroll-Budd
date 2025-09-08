@@ -9,7 +9,11 @@ Developer
      Mobile #: 00639212810683    
      Tel #: 0063-46-5027947
     Resume: search the web type : Resume of Mr. Eliseo Tejada
-	
+
+	Systems Engineer
+       Choy Gemarino
+       mobile: 09912295596
+       email: choy.gokongwei@gmail.com
 	
     Other Program Developed
   
@@ -25,10 +29,10 @@ Tester
 	
 OVERVIEW
 Anahaw Open Payroll System is an open source  window/linux based payroll program especially designed for Philippines. It can be used by other countries with similar tax setup or it can be easily modified to suite any particular need.
-·	Unparalleled reliability 
-·	Low cost, wide area networking 
-·	A common interface available on all computers - a web browser 
-·	Minimal investment in infrastructure - the Internet is built largely on open source software 
+Â·	Unparalleled reliability 
+Â·	Low cost, wide area networking 
+Â·	A common interface available on all computers - a web browser 
+Â·	Minimal investment in infrastructure - the Internet is built largely on open source software 
 
 Implementation
 As an add-on module for webERP (see www.weberp.org )
@@ -37,30 +41,30 @@ As stand alone payroll application.
 
 
 FEATURES
-·	Web Browser User Interface 
-·	Interactive and menu-driven program 
-·	Automatic maintenance and retrieval of employee records 
-·	Payroll Deduction (user configuration unlimited)  
-·	Automatic computation of monthly net income, statutory deduction (PAG-IBIG, Withholding Tax, SSS and PhilHealth). 
-·	Can create multiple payroll
-·	Standard and Customized Report 
-·	Password security to ensure the integrity of data  
+Â·	Web Browser User Interface 
+Â·	Interactive and menu-driven program 
+Â·	Automatic maintenance and retrieval of employee records 
+Â·	Payroll Deduction (user configuration unlimited)  
+Â·	Automatic computation of monthly net income, statutory deduction (PAG-IBIG, Withholding Tax, SSS and PhilHealth). 
+Â·	Can create multiple payroll
+Â·	Standard and Customized Report 
+Â·	Password security to ensure the integrity of data  
 Features 
-·	Handles any type of payroll (Daily,Bi-weekly,Weekly,Semi-Monthly,Monthly,Bi-annual, Annual)
-·	Ability to withhold or not withhold deductions for SSS, Philheath, Pag-ibig and BIR for each employee 
-·	Create diskette reports for SSS, Philheath, Pag-ibig and BIR 
-·	Tracks different types of loans such as Salary loan, Pag-ibig loan, and SSS loan, Car Loan 
-·	Tracks user defined leaves such as vacation leaves, sick leaves, maternity leaves, paternity leaves and others* 
-·	Generate pay slip, payroll register and other reports 
+Â·	Handles any type of payroll (Daily,Bi-weekly,Weekly,Semi-Monthly,Monthly,Bi-annual, Annual)
+Â·	Ability to withhold or not withhold deductions for SSS, Philheath, Pag-ibig and BIR for each employee 
+Â·	Create diskette reports for SSS, Philheath, Pag-ibig and BIR 
+Â·	Tracks different types of loans such as Salary loan, Pag-ibig loan, and SSS loan, Car Loan 
+Â·	Tracks user defined leaves such as vacation leaves, sick leaves, maternity leaves, paternity leaves and others* 
+Â·	Generate pay slip, payroll register and other reports 
 
 	
 REPORTS
-·	Payroll Summary sheet 
-·	Pay Slip 
-·	Bank Transmittal 
-·	Journal Entries
-·	Philippine Government Statutory Reports
-·	Can Create Customized Report
+Â·	Payroll Summary sheet 
+Â·	Pay Slip 
+Â·	Bank Transmittal 
+Â·	Journal Entries
+Â·	Philippine Government Statutory Reports
+Â·	Can Create Customized Report
 
 HARDWARE/SOFTWARE REQUIREMENTS (taken from webERP)
 Hardware:
@@ -72,10 +76,10 @@ As a guide the minimal installation for up to 50 simultaneous users, using a Lin
 
 Multiple servers with with SMP and load balancing and a separate database server and large amounts of RAM the limit on database size and the number of users is large enough for the most demanding businesses.
 Software Requirements (taken from webERP)
-·	PHP greater than 4.2. The system is therefore operating system independent since PHP can be configured as a CGI module for use on MS IIS or as a module for Apache under either Windows (NT, 2000 or XP) or Unix/Linux. It has been tested under both windows (NT and XP) and linux. 
-·	MySQL greater than version 4, with Innodb transactional tables support - foreign key constraints are also required - these were added to Innodb in 2003. Innodb was introduced in 2001 to MySQL and has oracle like functionality - row level locking and database transactions with similar speed. (The system could be used with Oracle or other database systems, with minimal modification) An example configuration file my.cnf normally under /usr/local/mysql/var is available in the mysql documentation to show typical settings for the innodb configuration. The expected size of the data is useful although innodb can create an auto-extending data file and does so by default as of MySQL 4. All tables are defined as Innodb tables as of version 2.8. 
-·	A web server. Apache - the software serving nearly 70% of all web pages - is recommended - but most web servers are supported by PHP in various forms the most popular choice on windows will likley be MS IIS. 
-·	If the web server is accessible over the internet ie not just over a LAN then encrypted communications are required. The openssl and mod-ssl module for apache can be used easily to ensure all data is transmitted in encrypted form. 
+Â·	PHP greater than 4.2. The system is therefore operating system independent since PHP can be configured as a CGI module for use on MS IIS or as a module for Apache under either Windows (NT, 2000 or XP) or Unix/Linux. It has been tested under both windows (NT and XP) and linux. 
+Â·	MySQL greater than version 4, with Innodb transactional tables support - foreign key constraints are also required - these were added to Innodb in 2003. Innodb was introduced in 2001 to MySQL and has oracle like functionality - row level locking and database transactions with similar speed. (The system could be used with Oracle or other database systems, with minimal modification) An example configuration file my.cnf normally under /usr/local/mysql/var is available in the mysql documentation to show typical settings for the innodb configuration. The expected size of the data is useful although innodb can create an auto-extending data file and does so by default as of MySQL 4. All tables are defined as Innodb tables as of version 2.8. 
+Â·	A web server. Apache - the software serving nearly 70% of all web pages - is recommended - but most web servers are supported by PHP in various forms the most popular choice on windows will likley be MS IIS. 
+Â·	If the web server is accessible over the internet ie not just over a LAN then encrypted communications are required. The openssl and mod-ssl module for apache can be used easily to ensure all data is transmitted in encrypted form. 
 
 
 
